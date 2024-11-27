@@ -1,6 +1,6 @@
 # Domain-Specific Modeling Language (DSML), Deliverable 2
 
-# **System Activity Blank Diagram - Domain-Specific Modeling Language (DSML)**
+# **System Activity Blank Diagram Editor**
 
 ## **Project Overview**
 This project focuses on designing a **Domain-Specific Modeling Language (DSML)** for the **System Activity Blank Diagram** using **Model-Driven Software Development (MDSD)** principles. The goal is to provide a robust tool that enables users to model and analyze system activities with domain-specific constructs, ensuring consistency and correctness through constraints and validation mechanisms.
