@@ -1,4 +1,4 @@
-# Deliverable2 for Model Driven Engineering Project
+# Domain-Specific Modeling Language (DSML), Deliverable 2
 
 # **System Activity Blank Diagram - Domain-Specific Modeling Language (DSML)**
 
