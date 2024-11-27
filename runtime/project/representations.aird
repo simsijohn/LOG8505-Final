@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:sierra="http://www.example.org/sierra" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_MaxHkKj2Ee-8lveSmpZ4DQ" selectedViews="_ebY-8Kj3Ee-8lveSmpZ4DQ _2mPj8Kj4Ee-8lveSmpZ4DQ" version="15.4.1.202403191723">
+    <semanticResources>project.sierra</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_ebY-8Kj3Ee-8lveSmpZ4DQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/sierra.odesign#//@ownedViewpoints[name='Sierra']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_ecYdcKj3Ee-8lveSmpZ4DQ" name="ActivityDiagram" repPath="#_eb25AKj3Ee-8lveSmpZ4DQ" changeId="1732644812985">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/sierra.odesign#//@ownedViewpoints[name='Sierra']/@ownedRepresentations[name='ActivityDiagram']"/>
+        <target xmi:type="sierra:ActivityDiagram" href="project.sierra#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_fM7Jkqj3Ee-8lveSmpZ4DQ" name="Main ActivityDiagram" repPath="#_fM7JkKj3Ee-8lveSmpZ4DQ" changeId="1732297073815">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/sierra.odesign#//@ownedViewpoints[name='Sierra']/@ownedRepresentations[name='ActivityDiagram']"/>
+        <target xmi:type="sierra:ActivityDiagram" href="project.sierra#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_2mPj8Kj4Ee-8lveSmpZ4DQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_3u_7wKj4Ee-8lveSmpZ4DQ" name="Secondary Activity Diagram" repPath="#_3uhaoKj4Ee-8lveSmpZ4DQ" changeId="1732685086932">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']"/>
+        <target xmi:type="sierra:ActivityDiagram" href="project.sierra#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_G4o88KuBEe-A57V9B-kUrw" name="Activity Diagram" repPath="#_G3shwKuBEe-A57V9B-kUrw" changeId="1732662411465">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']"/>
+        <target xmi:type="sierra:ActivityDiagram" href="project.sierra#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_eb25AKj3Ee-8lveSmpZ4DQ">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_eddbgKj3Ee-8lveSmpZ4DQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_eddbgaj3Ee-8lveSmpZ4DQ" type="Sirius" element="_eb25AKj3Ee-8lveSmpZ4DQ" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_eddbgqj3Ee-8lveSmpZ4DQ"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_ed5gYKj3Ee-8lveSmpZ4DQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_ed6ugKj3Ee-8lveSmpZ4DQ"/>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/sierra.odesign#//@ownedViewpoints[name='Sierra']/@ownedRepresentations[name='ActivityDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_ecLpIKj3Ee-8lveSmpZ4DQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/sierra.odesign#//@ownedViewpoints[name='Sierra']/@ownedRepresentations[name='ActivityDiagram']/@defaultLayer"/>
+    <target xmi:type="sierra:ActivityDiagram" href="project.sierra#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_fM7JkKj3Ee-8lveSmpZ4DQ">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_fM8XsKj3Ee-8lveSmpZ4DQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_fM8Xsaj3Ee-8lveSmpZ4DQ" type="Sirius" element="_fM7JkKj3Ee-8lveSmpZ4DQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_7rbKgKj3Ee-8lveSmpZ4DQ" type="2001" element="_7oFioKj3Ee-8lveSmpZ4DQ">
+          <children xmi:type="notation:Node" xmi:id="_7rgqEKj3Ee-8lveSmpZ4DQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_7rgqEaj3Ee-8lveSmpZ4DQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7rpM8Kj3Ee-8lveSmpZ4DQ" type="3003" element="_7obg4Kj3Ee-8lveSmpZ4DQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_7rpM8aj3Ee-8lveSmpZ4DQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7rpM8qj3Ee-8lveSmpZ4DQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_7rbKgaj3Ee-8lveSmpZ4DQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7rbKgqj3Ee-8lveSmpZ4DQ" x="464" y="224" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_7rk7gKj3Ee-8lveSmpZ4DQ" type="2001" element="_7ohngKj3Ee-8lveSmpZ4DQ">
+          <children xmi:type="notation:Node" xmi:id="_7rnXwKj3Ee-8lveSmpZ4DQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_7rnXwaj3Ee-8lveSmpZ4DQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7rqbEKj3Ee-8lveSmpZ4DQ" type="3003" element="_7okq0Kj3Ee-8lveSmpZ4DQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_7rqbEaj3Ee-8lveSmpZ4DQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7rqbEqj3Ee-8lveSmpZ4DQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_7rk7gaj3Ee-8lveSmpZ4DQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7rk7gqj3Ee-8lveSmpZ4DQ" x="594" y="249" width="100" height="50"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_fM8Xsqj3Ee-8lveSmpZ4DQ"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_fM8-wKj3Ee-8lveSmpZ4DQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_fM8-waj3Ee-8lveSmpZ4DQ"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_7oFioKj3Ee-8lveSmpZ4DQ" name="Component" width="10" height="5" resizeKind="NSEW">
+      <ownedStyle xmi:type="diagram:Square" uid="_7obg4Kj3Ee-8lveSmpZ4DQ" labelSize="12" showIcon="false" labelPosition="node" width="10" height="5" color="204,242,166">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/sierra.odesign#//@ownedViewpoints[name='Sierra']/@ownedRepresentations[name='ActivityDiagram']/@defaultLayer/@nodeMappings[name='AD_Component']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/sierra.odesign#//@ownedViewpoints[name='Sierra']/@ownedRepresentations[name='ActivityDiagram']/@defaultLayer/@nodeMappings[name='AD_Component']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_7ohngKj3Ee-8lveSmpZ4DQ" name="Component" width="10" height="5" resizeKind="NSEW">
+      <ownedStyle xmi:type="diagram:Square" uid="_7okq0Kj3Ee-8lveSmpZ4DQ" labelSize="12" showIcon="false" labelPosition="node" width="10" height="5" color="204,242,166">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/sierra.odesign#//@ownedViewpoints[name='Sierra']/@ownedRepresentations[name='ActivityDiagram']/@defaultLayer/@nodeMappings[name='AD_Component']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/sierra.odesign#//@ownedViewpoints[name='Sierra']/@ownedRepresentations[name='ActivityDiagram']/@defaultLayer/@nodeMappings[name='AD_Component']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/sierra.odesign#//@ownedViewpoints[name='Sierra']/@ownedRepresentations[name='ActivityDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_fM7Jkaj3Ee-8lveSmpZ4DQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/sierra.odesign#//@ownedViewpoints[name='Sierra']/@ownedRepresentations[name='ActivityDiagram']/@defaultLayer"/>
+    <target xmi:type="sierra:ActivityDiagram" href="project.sierra#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_3uhaoKj4Ee-8lveSmpZ4DQ">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_3vDmIKj4Ee-8lveSmpZ4DQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_3vDmIaj4Ee-8lveSmpZ4DQ" type="Sirius" element="_3uhaoKj4Ee-8lveSmpZ4DQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_2VqLkKxsEe-Y_JERmVxxlw" type="2001" element="_2TwHEaxsEe-Y_JERmVxxlw">
+          <children xmi:type="notation:Node" xmi:id="_2VqLk6xsEe-Y_JERmVxxlw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2VqLlKxsEe-Y_JERmVxxlw" x="67" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_l8jVgKx0Ee-yP5QHlJ8TUQ" type="3005" element="_l70Vsax0Ee-yP5QHlJ8TUQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_l8jVgax0Ee-yP5QHlJ8TUQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l8jVgqx0Ee-yP5QHlJ8TUQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_2VqLkaxsEe-Y_JERmVxxlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2VqLkqxsEe-Y_JERmVxxlw" x="624" y="432" width="258" height="122"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_2VqyoqxsEe-Y_JERmVxxlw" type="2001" element="_2TwuI6xsEe-Y_JERmVxxlw">
+          <children xmi:type="notation:Node" xmi:id="_2VqypaxsEe-Y_JERmVxxlw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2VqypqxsEe-Y_JERmVxxlw" x="17" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LNKaYKx3Ee-yP5QHlJ8TUQ" type="3005" element="_LL7rVqx3Ee-yP5QHlJ8TUQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_LNKaYax3Ee-yP5QHlJ8TUQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LNKaYqx3Ee-yP5QHlJ8TUQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_2Vqyo6xsEe-Y_JERmVxxlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2VqypKxsEe-Y_JERmVxxlw" x="688" y="169" width="148" height="128"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_2VrZsKxsEe-Y_JERmVxxlw" type="2001" element="_2TxVNKxsEe-Y_JERmVxxlw">
+          <children xmi:type="notation:Node" xmi:id="_2VrZs6xsEe-Y_JERmVxxlw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2VrZtKxsEe-Y_JERmVxxlw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_aJm5oKx5Ee-yP5QHlJ8TUQ" type="3005" element="_aIF2sKx5Ee-yP5QHlJ8TUQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_aJm5oax5Ee-yP5QHlJ8TUQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aJm5oqx5Ee-yP5QHlJ8TUQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_2VrZsaxsEe-Y_JERmVxxlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2VrZsqxsEe-Y_JERmVxxlw" x="944" y="212" width="86" height="118"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_2VrZtaxsEe-Y_JERmVxxlw" type="2001" element="_2TxVN6xsEe-Y_JERmVxxlw">
+          <children xmi:type="notation:Node" xmi:id="_2VrZuKxsEe-Y_JERmVxxlw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2VrZuaxsEe-Y_JERmVxxlw" x="32" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1EJNcKx5Ee-yP5QHlJ8TUQ" type="3005" element="_1ECfyqx5Ee-yP5QHlJ8TUQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_1EJNcax5Ee-yP5QHlJ8TUQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1EJNcqx5Ee-yP5QHlJ8TUQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_2VrZtqxsEe-Y_JERmVxxlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2VrZt6xsEe-Y_JERmVxxlw" x="180" y="132" width="98" height="114"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_2Vsn0qxsEe-Y_JERmVxxlw" type="2001" element="_2TyjVqxsEe-Y_JERmVxxlw">
+          <children xmi:type="notation:Node" xmi:id="_2Vsn1axsEe-Y_JERmVxxlw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2Vsn1qxsEe-Y_JERmVxxlw" x="10" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NuQ90Kx6Ee-yP5QHlJ8TUQ" type="3005" element="_Ns7hEqx6Ee-yP5QHlJ8TUQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_NuQ90ax6Ee-yP5QHlJ8TUQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NuQ90qx6Ee-yP5QHlJ8TUQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_2Vsn06xsEe-Y_JERmVxxlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Vsn1KxsEe-Y_JERmVxxlw" x="404" y="174" width="69" height="39"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_2Vsn16xsEe-Y_JERmVxxlw" type="2001" element="_2TzKYaxsEe-Y_JERmVxxlw">
+          <children xmi:type="notation:Node" xmi:id="_2VtO4KxsEe-Y_JERmVxxlw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2VtO4axsEe-Y_JERmVxxlw" x="14" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_T4nAMKx6Ee-yP5QHlJ8TUQ" type="3005" element="_T3lFc6x6Ee-yP5QHlJ8TUQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_T4nAMax6Ee-yP5QHlJ8TUQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T4nAMqx6Ee-yP5QHlJ8TUQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_2Vsn2KxsEe-Y_JERmVxxlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Vsn2axsEe-Y_JERmVxxlw" x="1214" y="520" width="107" height="93"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_2VtO7KxsEe-Y_JERmVxxlw" type="2001" element="_2TzxcaxsEe-Y_JERmVxxlw">
+          <children xmi:type="notation:Node" xmi:id="_2Vt18KxsEe-Y_JERmVxxlw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2Vt18axsEe-Y_JERmVxxlw" x="33" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_X7Q9UKx6Ee-yP5QHlJ8TUQ" type="3005" element="_X6LYMax6Ee-yP5QHlJ8TUQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_X7Q9Uax6Ee-yP5QHlJ8TUQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X7Q9Uqx6Ee-yP5QHlJ8TUQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_2VtO7axsEe-Y_JERmVxxlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2VtO7qxsEe-Y_JERmVxxlw" x="1064" y="368" width="124" height="134"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_3vDmIqj4Ee-8lveSmpZ4DQ"/>
+        <edges xmi:type="notation:Edge" xmi:id="_2V-UpqxsEe-Y_JERmVxxlw" type="4001" element="_2T3b1axsEe-Y_JERmVxxlw" source="_2VrZtaxsEe-Y_JERmVxxlw" target="_2Vsn0qxsEe-Y_JERmVxxlw">
+          <children xmi:type="notation:Node" xmi:id="_2V-UqqxsEe-Y_JERmVxxlw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2V-Uq6xsEe-Y_JERmVxxlw" y="-6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2V-UrKxsEe-Y_JERmVxxlw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2V-UraxsEe-Y_JERmVxxlw" x="-4" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2V-UrqxsEe-Y_JERmVxxlw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2V-Ur6xsEe-Y_JERmVxxlw" y="-4"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_2V-Up6xsEe-Y_JERmVxxlw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_2V-UqKxsEe-Y_JERmVxxlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2V-UqaxsEe-Y_JERmVxxlw" points="[99, -14, -131, 17]$[225, -31, -5, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2V-7sKxsEe-Y_JERmVxxlw" id="(-0.003701153382682044,0.6892968320820363)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2V-7saxsEe-Y_JERmVxxlw" id="(0.07246376811594203,0.1282051282051282)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_3yyPkKj4Ee-8lveSmpZ4DQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_3yyPkaj4Ee-8lveSmpZ4DQ"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_2TwHEaxsEe-Y_JERmVxxlw" name="SpecializableElememt" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="sierra:Entity" href="project.sierra#//@specializableelement.0"/>
+      <semanticElements xmi:type="sierra:Entity" href="project.sierra#//@specializableelement.0"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_l70Vsax0Ee-yP5QHlJ8TUQ" labelSize="12" showIcon="false" labelAlignment="RIGHT" workspacePath="/icons/gear.svg">
+        <customFeatures>showIcon</customFeatures>
+        <customFeatures>labelAlignment</customFeatures>
+        <customFeatures>labelPosition</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='SpecializableElementNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='SpecializableElementNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_2TwuI6xsEe-Y_JERmVxxlw" name="ContainableElement" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="sierra:Chain" href="project.sierra#//@containableelement.0"/>
+      <semanticElements xmi:type="sierra:Chain" href="project.sierra#//@containableelement.0"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_LL7rVqx3Ee-yP5QHlJ8TUQ" labelSize="12" showIcon="false" workspacePath="/icons/containable.svg">
+        <customFeatures>labelPosition</customFeatures>
+        <customFeatures>showIcon</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ContainableElementNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ContainableElementNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_2TxVNKxsEe-Y_JERmVxxlw" name="InvolvableElement" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="sierra:Entity" href="project.sierra#//@specializableelement.0"/>
+      <semanticElements xmi:type="sierra:Entity" href="project.sierra#//@specializableelement.0"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_aIF2sKx5Ee-yP5QHlJ8TUQ" labelSize="12" showIcon="false" workspacePath="/icons/user.svg">
+        <customFeatures>labelPosition</customFeatures>
+        <customFeatures>showIcon</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='InvolvableElementNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='InvolvableElementNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_2TxVN6xsEe-Y_JERmVxxlw" name="Entity" outgoingEdges="_2T3b1axsEe-Y_JERmVxxlw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="sierra:Entity" href="project.sierra#//@specializableelement.0"/>
+      <semanticElements xmi:type="sierra:Entity" href="project.sierra#//@specializableelement.0"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_1ECfyqx5Ee-yP5QHlJ8TUQ" labelSize="12" showIcon="false" workspacePath="/icons/entity.svg">
+        <customFeatures>showIcon</customFeatures>
+        <customFeatures>labelPosition</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='EntityNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='EntityNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_2TyjVqxsEe-Y_JERmVxxlw" name="Function" incomingEdges="_2T3b1axsEe-Y_JERmVxxlw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="sierra:Function" href="project.sierra#//@exchangeelement.0"/>
+      <semanticElements xmi:type="sierra:Function" href="project.sierra#//@exchangeelement.0"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_Ns7hEqx6Ee-yP5QHlJ8TUQ" labelSize="12" showIcon="false" workspacePath="/icons/function.svg">
+        <customFeatures>showIcon</customFeatures>
+        <customFeatures>labelPosition</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='FunctionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='FunctionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_2TzKYaxsEe-Y_JERmVxxlw" name="ExchangeElement" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="sierra:Function" href="project.sierra#//@exchangeelement.0"/>
+      <semanticElements xmi:type="sierra:Function" href="project.sierra#//@exchangeelement.0"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_T3lFc6x6Ee-yP5QHlJ8TUQ" labelSize="12" showIcon="false" workspacePath="/icons/circle.svg">
+        <customFeatures>showIcon</customFeatures>
+        <customFeatures>labelPosition</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ExchangeElementNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ExchangeElementNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_2TzxcaxsEe-Y_JERmVxxlw" name="Chain" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="sierra:Chain" href="project.sierra#//@containableelement.0"/>
+      <semanticElements xmi:type="sierra:Chain" href="project.sierra#//@containableelement.0"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_X6LYMax6Ee-yP5QHlJ8TUQ" labelSize="12" showIcon="false" borderLineStyle="dash_dot" workspacePath="/icons/chain.svg">
+        <customFeatures>showIcon</customFeatures>
+        <customFeatures>borderLineStyle</customFeatures>
+        <customFeatures>labelPosition</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ChainNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ChainNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_2T3b1axsEe-Y_JERmVxxlw" sourceNode="_2TxVN6xsEe-Y_JERmVxxlw" targetNode="_2TyjVqxsEe-Y_JERmVxxlw">
+      <target xmi:type="sierra:Entity" href="project.sierra#//@specializableelement.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_2T3b1qxsEe-Y_JERmVxxlw" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@edgeMappings[name='PerformsEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_2T3b16xsEe-Y_JERmVxxlw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@edgeMappings[name='PerformsEdge']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_3uhaoaj4Ee-8lveSmpZ4DQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer"/>
+    <target xmi:type="sierra:ActivityDiagram" href="project.sierra#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_G3shwKuBEe-A57V9B-kUrw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_G5vwMKuBEe-A57V9B-kUrw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_G5vwMauBEe-A57V9B-kUrw" type="Sirius" element="_G3shwKuBEe-A57V9B-kUrw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_33NlEKxEEe-p-vkl4ur3GQ" type="2001" element="_33FCMKxEEe-p-vkl4ur3GQ">
+          <children xmi:type="notation:Node" xmi:id="_33OMIKxEEe-p-vkl4ur3GQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_33OMIaxEEe-p-vkl4ur3GQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_33QoYKxEEe-p-vkl4ur3GQ" type="3003" element="_33FpQKxEEe-p-vkl4ur3GQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_33QoYaxEEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_33QoYqxEEe-p-vkl4ur3GQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_33NlEaxEEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_33NlEqxEEe-p-vkl4ur3GQ" x="373" y="213" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_33QBUKxEEe-p-vkl4ur3GQ" type="2001" element="_33KhwKxEEe-p-vkl4ur3GQ">
+          <children xmi:type="notation:Node" xmi:id="_33QBU6xEEe-p-vkl4ur3GQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_33QBVKxEEe-p-vkl4ur3GQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_33RPcKxEEe-p-vkl4ur3GQ" type="3003" element="_33KhwaxEEe-p-vkl4ur3GQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_33RPcaxEEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_33RPcqxEEe-p-vkl4ur3GQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_33QBUaxEEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_33QBUqxEEe-p-vkl4ur3GQ" x="373" y="164" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_7HTc0KxEEe-p-vkl4ur3GQ" type="2001" element="_7HKS4KxEEe-p-vkl4ur3GQ">
+          <children xmi:type="notation:Node" xmi:id="_7HUD4KxEEe-p-vkl4ur3GQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_7HUD4axEEe-p-vkl4ur3GQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7HVSAqxEEe-p-vkl4ur3GQ" type="3003" element="_7HK58KxEEe-p-vkl4ur3GQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_7HVSA6xEEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7HVSBKxEEe-p-vkl4ur3GQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_7HTc0axEEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7HTc0qxEEe-p-vkl4ur3GQ" x="585" y="214" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_7HUD4qxEEe-p-vkl4ur3GQ" type="2001" element="_7HOkUKxEEe-p-vkl4ur3GQ">
+          <children xmi:type="notation:Node" xmi:id="_7HUq8KxEEe-p-vkl4ur3GQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_7HUq8axEEe-p-vkl4ur3GQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7HV5EKxEEe-p-vkl4ur3GQ" type="3003" element="_7HOkUaxEEe-p-vkl4ur3GQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_7HV5EaxEEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7HV5EqxEEe-p-vkl4ur3GQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_7HUD46xEEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7HUD5KxEEe-p-vkl4ur3GQ" x="585" y="115" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_7HUq8qxEEe-p-vkl4ur3GQ" type="2001" element="_7HQZgKxEEe-p-vkl4ur3GQ">
+          <children xmi:type="notation:Node" xmi:id="_7HVSAKxEEe-p-vkl4ur3GQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_7HVSAaxEEe-p-vkl4ur3GQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7HV5E6xEEe-p-vkl4ur3GQ" type="3003" element="_7HQZgaxEEe-p-vkl4ur3GQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_7HV5FKxEEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7HV5FaxEEe-p-vkl4ur3GQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_7HUq86xEEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7HUq9KxEEe-p-vkl4ur3GQ" x="585" y="164" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_FHmAkKxGEe-p-vkl4ur3GQ" type="2001" element="_FHi9QqxGEe-p-vkl4ur3GQ">
+          <children xmi:type="notation:Node" xmi:id="_FHmnoKxGEe-p-vkl4ur3GQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_FHmnoaxGEe-p-vkl4ur3GQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FHnOsqxGEe-p-vkl4ur3GQ" type="3003" element="_FHi9Q6xGEe-p-vkl4ur3GQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_FHnOs6xGEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FHnOtKxGEe-p-vkl4ur3GQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_FHmAkaxGEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FHmAkqxGEe-p-vkl4ur3GQ" x="448" y="352" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_FHmnoqxGEe-p-vkl4ur3GQ" type="2001" element="_FHfS4KxGEe-p-vkl4ur3GQ">
+          <children xmi:type="notation:Node" xmi:id="_FHnOsKxGEe-p-vkl4ur3GQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_FHnOsaxGEe-p-vkl4ur3GQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FHn1wKxGEe-p-vkl4ur3GQ" type="3003" element="_FHfS4axGEe-p-vkl4ur3GQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_FHn1waxGEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FHn1wqxGEe-p-vkl4ur3GQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_FHmno6xGEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FHmnpKxGEe-p-vkl4ur3GQ" x="448" y="401" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_2vjukKxGEe-p-vkl4ur3GQ" type="2001" element="_2vbLsKxGEe-p-vkl4ur3GQ">
+          <children xmi:type="notation:Node" xmi:id="_2vjuk6xGEe-p-vkl4ur3GQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2vjulKxGEe-p-vkl4ur3GQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2vkVoqxGEe-p-vkl4ur3GQ" type="3003" element="_2vbLsaxGEe-p-vkl4ur3GQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2vkVo6xGEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2vkVpKxGEe-p-vkl4ur3GQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_2vjukaxGEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2vjukqxGEe-p-vkl4ur3GQ" x="68" y="317" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_2vjulaxGEe-p-vkl4ur3GQ" type="2001" element="_2ve2EqxGEe-p-vkl4ur3GQ">
+          <children xmi:type="notation:Node" xmi:id="_2vkVoKxGEe-p-vkl4ur3GQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2vkVoaxGEe-p-vkl4ur3GQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2vk8sKxGEe-p-vkl4ur3GQ" type="3003" element="_2ve2E6xGEe-p-vkl4ur3GQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2vk8saxGEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2vk8sqxGEe-p-vkl4ur3GQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_2vjulqxGEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2vjul6xGEe-p-vkl4ur3GQ" x="68" y="268" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_uainkKxKEe-p-vkl4ur3GQ" type="2001" element="_uagLVqxKEe-p-vkl4ur3GQ">
+          <children xmi:type="notation:Node" xmi:id="_uajOoKxKEe-p-vkl4ur3GQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_uajOoaxKEe-p-vkl4ur3GQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uakcwKxKEe-p-vkl4ur3GQ" type="3003" element="_uagLV6xKEe-p-vkl4ur3GQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_uakcwaxKEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uakcwqxKEe-p-vkl4ur3GQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_uainkaxKEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uainkqxKEe-p-vkl4ur3GQ" x="68" y="416" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_uajOoqxKEe-p-vkl4ur3GQ" type="2001" element="_uafkRqxKEe-p-vkl4ur3GQ">
+          <children xmi:type="notation:Node" xmi:id="_uaj1sKxKEe-p-vkl4ur3GQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_uaj1saxKEe-p-vkl4ur3GQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uakcw6xKEe-p-vkl4ur3GQ" type="3003" element="_uafkR6xKEe-p-vkl4ur3GQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_uakcxKxKEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uakcxaxKEe-p-vkl4ur3GQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_uajOo6xKEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uajOpKxKEe-p-vkl4ur3GQ" x="68" y="466" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_uaj1sqxKEe-p-vkl4ur3GQ" type="2001" element="_uabS0KxKEe-p-vkl4ur3GQ">
+          <children xmi:type="notation:Node" xmi:id="_uaj1taxKEe-p-vkl4ur3GQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_uaj1tqxKEe-p-vkl4ur3GQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uakcxqxKEe-p-vkl4ur3GQ" type="3003" element="_uabS0axKEe-p-vkl4ur3GQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_uakcx6xKEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uakcyKxKEe-p-vkl4ur3GQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_uaj1s6xKEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uaj1tKxKEe-p-vkl4ur3GQ" x="68" y="515" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_xZlLkKxKEe-p-vkl4ur3GQ" type="2001" element="_xZjWZqxKEe-p-vkl4ur3GQ">
+          <children xmi:type="notation:Node" xmi:id="_xZlyoKxKEe-p-vkl4ur3GQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_xZlyoaxKEe-p-vkl4ur3GQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_xZnAwqxKEe-p-vkl4ur3GQ" type="3003" element="_xZjWZ6xKEe-p-vkl4ur3GQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_xZnAw6xKEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xZnAxKxKEe-p-vkl4ur3GQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_xZlLkaxKEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xZlLkqxKEe-p-vkl4ur3GQ" x="240" y="416" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_xZmZsKxKEe-p-vkl4ur3GQ" type="2001" element="_xZivV6xKEe-p-vkl4ur3GQ">
+          <children xmi:type="notation:Node" xmi:id="_xZmZs6xKEe-p-vkl4ur3GQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_xZmZtKxKEe-p-vkl4ur3GQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_xZnn0KxKEe-p-vkl4ur3GQ" type="3003" element="_xZivWKxKEe-p-vkl4ur3GQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_xZnn0axKEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xZnn0qxKEe-p-vkl4ur3GQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_xZmZsaxKEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xZmZsqxKEe-p-vkl4ur3GQ" x="240" y="466" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_xZmZtaxKEe-p-vkl4ur3GQ" type="2001" element="_xZfsAKxKEe-p-vkl4ur3GQ">
+          <children xmi:type="notation:Node" xmi:id="_xZnAwKxKEe-p-vkl4ur3GQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_xZnAwaxKEe-p-vkl4ur3GQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_xZnn06xKEe-p-vkl4ur3GQ" type="3003" element="_xZfsAaxKEe-p-vkl4ur3GQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_xZnn1KxKEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xZnn1axKEe-p-vkl4ur3GQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_xZmZtqxKEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xZmZt6xKEe-p-vkl4ur3GQ" x="240" y="515" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_-0xlYKxKEe-p-vkl4ur3GQ" type="2001" element="_-0vJIqxKEe-p-vkl4ur3GQ">
+          <children xmi:type="notation:Node" xmi:id="_-0yMcKxKEe-p-vkl4ur3GQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_-0yMcaxKEe-p-vkl4ur3GQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_-0zakKxKEe-p-vkl4ur3GQ" type="3003" element="_-0vJI6xKEe-p-vkl4ur3GQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_-0zakaxKEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-0zakqxKEe-p-vkl4ur3GQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_-0xlYaxKEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-0xlYqxKEe-p-vkl4ur3GQ" x="32" y="103" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_-0yzgKxKEe-p-vkl4ur3GQ" type="2001" element="_-0ss4KxKEe-p-vkl4ur3GQ">
+          <children xmi:type="notation:Node" xmi:id="_-0yzg6xKEe-p-vkl4ur3GQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_-0yzhKxKEe-p-vkl4ur3GQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_-0zak6xKEe-p-vkl4ur3GQ" type="3003" element="_-0ss4axKEe-p-vkl4ur3GQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_-0zalKxKEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-0zalaxKEe-p-vkl4ur3GQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_-0yzgaxKEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-0yzgqxKEe-p-vkl4ur3GQ" x="76" y="152" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_-0yzhaxKEe-p-vkl4ur3GQ" type="2001" element="_-0vJK6xKEe-p-vkl4ur3GQ">
+          <children xmi:type="notation:Node" xmi:id="_-0yziKxKEe-p-vkl4ur3GQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_-0yziaxKEe-p-vkl4ur3GQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_-0zalqxKEe-p-vkl4ur3GQ" type="3003" element="_-0vJLKxKEe-p-vkl4ur3GQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_-0zal6xKEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-0zamKxKEe-p-vkl4ur3GQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_-0yzhqxKEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-0yzh6xKEe-p-vkl4ur3GQ" x="131" y="103" width="100" height="50"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_G5vwMquBEe-A57V9B-kUrw"/>
+        <edges xmi:type="notation:Edge" xmi:id="_BkvaUKxFEe-p-vkl4ur3GQ" type="4001" element="_BkcfYKxFEe-p-vkl4ur3GQ" source="_7HTc0KxEEe-p-vkl4ur3GQ" target="_33NlEKxEEe-p-vkl4ur3GQ">
+          <children xmi:type="notation:Node" xmi:id="_BkwocKxFEe-p-vkl4ur3GQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BkwocaxFEe-p-vkl4ur3GQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Bk39MKxFEe-p-vkl4ur3GQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bk39MaxFEe-p-vkl4ur3GQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Bk5LUKxFEe-p-vkl4ur3GQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bk5LUaxFEe-p-vkl4ur3GQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_BkvaUaxFEe-p-vkl4ur3GQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_BkvaUqxFEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BkvaU6xFEe-p-vkl4ur3GQ" points="[0, 0, 112, 0]$[-112, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bk7nkKxFEe-p-vkl4ur3GQ" id="(0.0,0.48)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bk7nkaxFEe-p-vkl4ur3GQ" id="(1.0,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_JfBT0KxGEe-p-vkl4ur3GQ" type="4001" element="_Je5_EKxGEe-p-vkl4ur3GQ" source="_FHmnoqxGEe-p-vkl4ur3GQ" target="_33NlEKxEEe-p-vkl4ur3GQ">
+          <children xmi:type="notation:Node" xmi:id="_JfBT1KxGEe-p-vkl4ur3GQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JfBT1axGEe-p-vkl4ur3GQ" x="17" y="-4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_JfBT1qxGEe-p-vkl4ur3GQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JfBT16xGEe-p-vkl4ur3GQ" x="-11" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_JfBT2KxGEe-p-vkl4ur3GQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JfBT2axGEe-p-vkl4ur3GQ" x="-11" y="3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_JfBT0axGEe-p-vkl4ur3GQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_JfBT0qxGEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JfBT06xGEe-p-vkl4ur3GQ" points="[-5, -11, 75, 163]$[-69, -151, 11, 23]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JfBT2qxGEe-p-vkl4ur3GQ" id="(0.05,0.26)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JfB64KxGEe-p-vkl4ur3GQ" id="(0.0,0.54)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_2m0sgKxKEe-p-vkl4ur3GQ" type="4001" element="_2mv0AKxKEe-p-vkl4ur3GQ" source="_2vjukKxGEe-p-vkl4ur3GQ" target="_uajOoqxKEe-p-vkl4ur3GQ">
+          <children xmi:type="notation:Node" xmi:id="_2m1TkKxKEe-p-vkl4ur3GQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2m1TkaxKEe-p-vkl4ur3GQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2m1TkqxKEe-p-vkl4ur3GQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2m1Tk6xKEe-p-vkl4ur3GQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2m1TlKxKEe-p-vkl4ur3GQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2m1TlaxKEe-p-vkl4ur3GQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_2m0sgaxKEe-p-vkl4ur3GQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_2m0sgqxKEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2m0sg6xKEe-p-vkl4ur3GQ" points="[0, 0, 20, -99]$[-20, 99, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2m1TlqxKEe-p-vkl4ur3GQ" id="(0.84,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2m1Tl6xKEe-p-vkl4ur3GQ" id="(0.64,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_4Qq_MKxKEe-p-vkl4ur3GQ" type="4001" element="_4QmtxKxKEe-p-vkl4ur3GQ" source="_2vjukKxGEe-p-vkl4ur3GQ" target="_xZmZsKxKEe-p-vkl4ur3GQ">
+          <children xmi:type="notation:Node" xmi:id="_4QrmQKxKEe-p-vkl4ur3GQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4QrmQaxKEe-p-vkl4ur3GQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_4QrmQqxKEe-p-vkl4ur3GQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4QrmQ6xKEe-p-vkl4ur3GQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_4QrmRKxKEe-p-vkl4ur3GQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4QrmRaxKEe-p-vkl4ur3GQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_4Qq_MaxKEe-p-vkl4ur3GQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_4Qq_MqxKEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4Qq_M6xKEe-p-vkl4ur3GQ" points="[0, 0, -124, -114]$[124, 114, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4QrmRqxKEe-p-vkl4ur3GQ" id="(1.0,0.7)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4QrmR6xKEe-p-vkl4ur3GQ" id="(0.52,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_CFuYwKxLEe-p-vkl4ur3GQ" type="4001" element="_CFnrEKxLEe-p-vkl4ur3GQ" source="_33NlEKxEEe-p-vkl4ur3GQ" target="_-0yzhaxKEe-p-vkl4ur3GQ">
+          <children xmi:type="notation:Node" xmi:id="_CFuYxKxLEe-p-vkl4ur3GQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CFuYxaxLEe-p-vkl4ur3GQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CFu_0KxLEe-p-vkl4ur3GQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CFu_0axLEe-p-vkl4ur3GQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CFu_0qxLEe-p-vkl4ur3GQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CFu_06xLEe-p-vkl4ur3GQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_CFuYwaxLEe-p-vkl4ur3GQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_CFuYwqxLEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CFuYw6xLEe-p-vkl4ur3GQ" points="[0, 0, 197, 107]$[-197, -107, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CFu_1KxLEe-p-vkl4ur3GQ" id="(0.0,0.94)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CFu_1axLEe-p-vkl4ur3GQ" id="(0.45,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_HwVLIKxLEe-p-vkl4ur3GQ" type="4001" element="_HwOdcKxLEe-p-vkl4ur3GQ" source="_-0yzgKxKEe-p-vkl4ur3GQ" target="_2vjukKxGEe-p-vkl4ur3GQ">
+          <children xmi:type="notation:Node" xmi:id="_HwVyMKxLEe-p-vkl4ur3GQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HwVyMaxLEe-p-vkl4ur3GQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HwVyMqxLEe-p-vkl4ur3GQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HwVyM6xLEe-p-vkl4ur3GQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HwVyNKxLEe-p-vkl4ur3GQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HwVyNaxLEe-p-vkl4ur3GQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_HwVLIaxLEe-p-vkl4ur3GQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_HwVLIqxLEe-p-vkl4ur3GQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HwVLI6xLEe-p-vkl4ur3GQ" points="[0, 0, 0, -115]$[0, 115, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HwVyNqxLEe-p-vkl4ur3GQ" id="(0.72,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HwVyN6xLEe-p-vkl4ur3GQ" id="(0.8,0.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_G7JeYKuBEe-A57V9B-kUrw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_G7JeYauBEe-A57V9B-kUrw"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_33FCMKxEEe-p-vkl4ur3GQ" name="Capability" outgoingEdges="_CFnrEKxLEe-p-vkl4ur3GQ" incomingEdges="_BkcfYKxFEe-p-vkl4ur3GQ _Je5_EKxGEe-p-vkl4ur3GQ" width="10" height="5" resizeKind="NSEW">
+      <ownedStyle xmi:type="diagram:Square" uid="_33FpQKxEEe-p-vkl4ur3GQ" labelSize="12" labelPosition="node" width="10" height="5" color="204,242,166">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='CapabilityNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='CapabilityNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_33KhwKxEEe-p-vkl4ur3GQ" name="Specializable Element" width="10" height="5" resizeKind="NSEW">
+      <ownedStyle xmi:type="diagram:Square" uid="_33KhwaxEEe-p-vkl4ur3GQ" labelSize="12" labelPosition="node" width="10" height="5" color="194,239,255">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='SpecializableElementNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='SpecializableElementNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_-0vJIqxKEe-p-vkl4ur3GQ" name="Specializable Element" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="sierra:Entity" href="project.sierra#//@specializableelement.0"/>
+      <semanticElements xmi:type="sierra:Entity" href="project.sierra#//@specializableelement.0"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_-0vJI6xKEe-p-vkl4ur3GQ" labelSize="12" labelPosition="node" width="10" height="5" color="194,239,255">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='SpecializableElementNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='SpecializableElementNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_7HKS4KxEEe-p-vkl4ur3GQ" name="System" outgoingEdges="_BkcfYKxFEe-p-vkl4ur3GQ" width="10" height="5" resizeKind="NSEW">
+      <ownedStyle xmi:type="diagram:Square" uid="_7HK58KxEEe-p-vkl4ur3GQ" labelSize="12" labelPosition="node" width="10" height="5" color="204,242,166">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='SystemNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='SystemNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_7HOkUKxEEe-p-vkl4ur3GQ" name="Containable Element" width="8" height="5" resizeKind="NSEW">
+      <ownedStyle xmi:type="diagram:Square" uid="_7HOkUaxEEe-p-vkl4ur3GQ" labelSize="12" labelPosition="node" width="8" height="5" color="194,239,255">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ContainableElementNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ContainableElementNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_FHi9QqxGEe-p-vkl4ur3GQ" name="Containable Element" width="8" height="5" resizeKind="NSEW">
+      <target xmi:type="sierra:Chain" href="project.sierra#//@containableelement.0"/>
+      <semanticElements xmi:type="sierra:Chain" href="project.sierra#//@containableelement.0"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_FHi9Q6xGEe-p-vkl4ur3GQ" labelSize="12" labelPosition="node" width="8" height="5" color="194,239,255">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ContainableElementNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ContainableElementNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_7HQZgKxEEe-p-vkl4ur3GQ" name="Component" width="10" height="5" resizeKind="NSEW">
+      <ownedStyle xmi:type="diagram:Square" uid="_7HQZgaxEEe-p-vkl4ur3GQ" labelSize="12" labelPosition="node" width="10" height="5" color="204,242,166">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ComponentNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ComponentNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_BkcfYKxFEe-p-vkl4ur3GQ" sourceNode="_7HKS4KxEEe-p-vkl4ur3GQ" targetNode="_33FCMKxEEe-p-vkl4ur3GQ">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_BkdGcKxFEe-p-vkl4ur3GQ" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@edgeMappings[name='SupportsEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_BkdGcaxFEe-p-vkl4ur3GQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@edgeMappings[name='SupportsEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_FHfS4KxGEe-p-vkl4ur3GQ" name="Chain" outgoingEdges="_Je5_EKxGEe-p-vkl4ur3GQ" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="sierra:Chain" href="project.sierra#//@containableelement.0"/>
+      <semanticElements xmi:type="sierra:Chain" href="project.sierra#//@containableelement.0"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_FHfS4axGEe-p-vkl4ur3GQ" labelSize="12" labelPosition="node" width="10" height="5" color="204,242,166">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ChainNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ChainNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Je5_EKxGEe-p-vkl4ur3GQ" sourceNode="_FHfS4KxGEe-p-vkl4ur3GQ" targetNode="_33FCMKxEEe-p-vkl4ur3GQ">
+      <target xmi:type="sierra:Chain" href="project.sierra#//@containableelement.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Je6mIKxGEe-p-vkl4ur3GQ" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@edgeMappings[name='ImplementsEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Je6mIaxGEe-p-vkl4ur3GQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@edgeMappings[name='ImplementsEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_2vbLsKxGEe-p-vkl4ur3GQ" name="Function" outgoingEdges="_2mv0AKxKEe-p-vkl4ur3GQ _4QmtxKxKEe-p-vkl4ur3GQ" incomingEdges="_HwOdcKxLEe-p-vkl4ur3GQ" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="sierra:Function" href="project.sierra#//@exchangeelement.0"/>
+      <semanticElements xmi:type="sierra:Function" href="project.sierra#//@exchangeelement.0"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_2vbLsaxGEe-p-vkl4ur3GQ" labelSize="12" labelPosition="node" width="10" height="5" color="204,242,166">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='FunctionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='FunctionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_2ve2EqxGEe-p-vkl4ur3GQ" name="Exchange Element" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="sierra:Function" href="project.sierra#//@exchangeelement.0"/>
+      <semanticElements xmi:type="sierra:Function" href="project.sierra#//@exchangeelement.0"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_2ve2E6xGEe-p-vkl4ur3GQ" labelSize="12" labelPosition="node" width="10" height="5" color="194,239,255">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ExchangeElementNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ExchangeElementNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_uagLVqxKEe-p-vkl4ur3GQ" name="Exchange Element" width="10" height="5" resizeKind="NSEW">
+      <ownedStyle xmi:type="diagram:Square" uid="_uagLV6xKEe-p-vkl4ur3GQ" labelSize="12" labelPosition="node" width="10" height="5" color="194,239,255">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ExchangeElementNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ExchangeElementNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_xZjWZqxKEe-p-vkl4ur3GQ" name="Exchange Element" width="10" height="5" resizeKind="NSEW">
+      <ownedStyle xmi:type="diagram:Square" uid="_xZjWZ6xKEe-p-vkl4ur3GQ" labelSize="12" labelPosition="node" width="10" height="5" color="194,239,255">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ExchangeElementNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ExchangeElementNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_uafkRqxKEe-p-vkl4ur3GQ" name="Port" incomingEdges="_2mv0AKxKEe-p-vkl4ur3GQ" width="10" height="5" resizeKind="NSEW">
+      <ownedStyle xmi:type="diagram:Square" uid="_uafkR6xKEe-p-vkl4ur3GQ" labelSize="12" labelPosition="node" width="10" height="5" color="204,242,166">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='PortNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='PortNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_xZivV6xKEe-p-vkl4ur3GQ" name="Port" incomingEdges="_4QmtxKxKEe-p-vkl4ur3GQ" width="10" height="5" resizeKind="NSEW">
+      <ownedStyle xmi:type="diagram:Square" uid="_xZivWKxKEe-p-vkl4ur3GQ" labelSize="12" labelPosition="node" width="10" height="5" color="204,242,166">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='PortNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='PortNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_uabS0KxKEe-p-vkl4ur3GQ" name="Input" width="10" height="5" resizeKind="NSEW">
+      <ownedStyle xmi:type="diagram:Square" uid="_uabS0axKEe-p-vkl4ur3GQ" labelSize="12" labelPosition="node" width="10" height="5" color="204,242,166">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='InputNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='InputNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_xZfsAKxKEe-p-vkl4ur3GQ" name="Output" width="10" height="5" resizeKind="NSEW">
+      <ownedStyle xmi:type="diagram:Square" uid="_xZfsAaxKEe-p-vkl4ur3GQ" labelSize="12" labelPosition="node" width="10" height="5" color="204,242,166">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='OutputNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='OutputNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_2mv0AKxKEe-p-vkl4ur3GQ" sourceNode="_2vbLsKxGEe-p-vkl4ur3GQ" targetNode="_uafkRqxKEe-p-vkl4ur3GQ">
+      <target xmi:type="sierra:Function" href="project.sierra#//@exchangeelement.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_2mv0AaxKEe-p-vkl4ur3GQ" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@edgeMappings[name='HasPortEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_2mv0AqxKEe-p-vkl4ur3GQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@edgeMappings[name='HasPortEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_4QmtxKxKEe-p-vkl4ur3GQ" sourceNode="_2vbLsKxGEe-p-vkl4ur3GQ" targetNode="_xZivV6xKEe-p-vkl4ur3GQ">
+      <target xmi:type="sierra:Function" href="project.sierra#//@exchangeelement.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_4QmtxaxKEe-p-vkl4ur3GQ" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@edgeMappings[name='HasPortEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_4QmtxqxKEe-p-vkl4ur3GQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@edgeMappings[name='HasPortEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_-0ss4KxKEe-p-vkl4ur3GQ" name="Entity" outgoingEdges="_HwOdcKxLEe-p-vkl4ur3GQ" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="sierra:Entity" href="project.sierra#//@specializableelement.0"/>
+      <semanticElements xmi:type="sierra:Entity" href="project.sierra#//@specializableelement.0"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_-0ss4axKEe-p-vkl4ur3GQ" labelSize="12" labelPosition="node" width="10" height="5" color="204,242,166">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='EntityNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='EntityNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_-0vJK6xKEe-p-vkl4ur3GQ" name="Involvable Element" incomingEdges="_CFnrEKxLEe-p-vkl4ur3GQ" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="sierra:Entity" href="project.sierra#//@specializableelement.0"/>
+      <semanticElements xmi:type="sierra:Entity" href="project.sierra#//@specializableelement.0"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_-0vJLKxKEe-p-vkl4ur3GQ" labelSize="12" labelPosition="node" width="10" height="5" color="194,239,255">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='InvolvableElementNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='InvolvableElementNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_CFnrEKxLEe-p-vkl4ur3GQ" sourceNode="_33FCMKxEEe-p-vkl4ur3GQ" targetNode="_-0vJK6xKEe-p-vkl4ur3GQ">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_CFoSIKxLEe-p-vkl4ur3GQ" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@edgeMappings[name='InvolvesEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_CFoSIaxLEe-p-vkl4ur3GQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@edgeMappings[name='InvolvesEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_HwOdcKxLEe-p-vkl4ur3GQ" sourceNode="_-0ss4KxKEe-p-vkl4ur3GQ" targetNode="_2vbLsKxGEe-p-vkl4ur3GQ">
+      <target xmi:type="sierra:Entity" href="project.sierra#//@specializableelement.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_HwOdcaxLEe-p-vkl4ur3GQ" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@edgeMappings[name='PerformsEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_HwOdcqxLEe-p-vkl4ur3GQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@edgeMappings[name='PerformsEdge']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_G4J0wKuBEe-A57V9B-kUrw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/org.eclipse.sirius.sample.sierra.design/description/dsml.odesign#//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer"/>
+    <target xmi:type="sierra:ActivityDiagram" href="project.sierra#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

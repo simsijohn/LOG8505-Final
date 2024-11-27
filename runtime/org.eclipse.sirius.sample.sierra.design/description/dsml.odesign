@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="dsml" version="12.0.0.2017041100">
+  <ownedViewpoints name="DSMLViewpoint" modelFileExtension="sierra">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="DSMLDiagram" domainClass="sierra::ActivityDiagram" enablePopupBars="true">
+      <metamodel href="http://www.example.org/sierra#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="SpecializableElementNode" label="SpecializableElement" semanticCandidatesExpression="feature:specializableelement" domainClass="sierra.SpecializableElement">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="SpecializableElememt" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/gear.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ContainableElementNode" label="ContainableElement" semanticCandidatesExpression="feature:containableelement" domainClass="sierra.ContainableElement">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="ContainableElement" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/containable.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="CapabilityNode" label="Capability" semanticCandidatesExpression="feature:specializableelement" domainClass="sierra.Capability">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="Capability" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/tools.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="InvolvableElementNode" label="InvolvableElement" semanticCandidatesExpression="feature:specializableelement" domainClass="sierra.InvolvableElement">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="InvolvableElement" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/user.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ActorNode" label="Actor" semanticCandidatesExpression="feature:specializableelement" domainClass="sierra.Actor">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="Actor" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/avatar.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="EntityNode" label="Entity" semanticCandidatesExpression="feature:specializableelement" domainClass="sierra.Entity">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="Entity" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/entity.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ComponentNode" label="Component" semanticCandidatesExpression="feature:containableelement" domainClass="sierra.Component">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="Component" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/component.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="SystemNode" label="System" semanticCandidatesExpression="feature:containableelement" domainClass="sierra.System">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="System" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/system.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="PortNode" label="Port" semanticCandidatesExpression="feature:exchangeelement" domainClass="sierra.Port">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="Port" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/plug.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="FunctionNode" label="Function" semanticCandidatesExpression="feature:exchangeelement" domainClass="sierra.Function">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="Function" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/function.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ExchangeElementNode" label="ExchangeElement" semanticCandidatesExpression="feature:exchangeelement" domainClass="sierra.ExchangeElement">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="ExchangeElement" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/circle.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ExchangeNode" label="Exchange" semanticCandidatesExpression="feature:containableelement" domainClass="sierra.exchange">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="Exchange" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/exchange.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ChainNode" label="Chain" semanticCandidatesExpression="feature:containableelement" domainClass="sierra.Chain">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="Chain" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/chain.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="InputNode" label="Input" semanticCandidatesExpression="feature:exchangeelement" domainClass="sierra.Input">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="Input" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/input.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="OutputNode" label="Output" semanticCandidatesExpression="feature:exchangeelement" domainClass="sierra.Output">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="Output" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/output.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="PerformingElementNode" label="PerformingElement" semanticCandidatesExpression="feature:performingelement" domainClass="sierra.PerformingElement">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="PerformingElement" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/lightning.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="SpecializesEdge" label="Specializes" sourceMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='SpecializableElementNode']" targetMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='SpecializableElementNode']" targetFinderExpression="feature:specializes">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ContainsEdge" label="Contains" sourceMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ContainableElementNode']" targetMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ContainableElementNode']" targetFinderExpression="feature:contains">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ImplementsEdge" label="Implements" sourceMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ChainNode']" targetMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='CapabilityNode']" targetFinderExpression="feature:implements">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="SupportsEdge" label="Supports" sourceMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='SystemNode']" targetMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='CapabilityNode']" targetFinderExpression="feature:supports">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="IncludesEdge" label="Includes" sourceMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='CapabilityNode']" targetMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='CapabilityNode']" targetFinderExpression="feature:includes">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ExtendsEdge" label="Extends" sourceMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='CapabilityNode']" targetMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='CapabilityNode']" targetFinderExpression="feature:extends">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="PerformsEdge" label="Performs" sourceMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='PerformingElementNode'] //@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ActorNode'] //@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='EntityNode']" targetMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='FunctionNode']" targetFinderExpression="feature:performs">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="HasPortEdge" label="HasPort" sourceMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='FunctionNode']" targetMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='PortNode']" targetFinderExpression="feature:hasPort">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ReceivesFromEdge" label="ReceivesFrom" sourceMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ExchangeNode']" targetMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ExchangeElementNode']">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="SendsToEdge" label="SendsTo" sourceMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ExchangeNode']" targetMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ExchangeElementNode']" targetFinderExpression="feature:sendsTo">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="InvolvesEdge" label="Involves" sourceMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='CapabilityNode']" targetMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='InvolvableElementNode']" targetFinderExpression="feature:involves">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="HasInputEdge" label="HasInput" sourceMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='FunctionNode']" targetMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='InputNode']" targetFinderExpression="aql:self.hasInput">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="HasOutputEdge" label="HasOutput" sourceMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='FunctionNode']" targetMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='OutputNode']" targetFinderExpression="aql:self.hasOutput">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="FunctionEdge" label="Function" sourceMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='FunctionNode']" targetMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='FunctionNode']" targetFinderExpression="aql:self.function">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections name="tools">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateCapability" nodeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='CapabilityNode']" iconPath="/icons/gear.svg">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="sierra::Capability" referenceName="specializableelement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateSystem" nodeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='SystemNode']" iconPath="/icons/system.svg">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="sierra::System" referenceName="containableelement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateActor" nodeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ActorNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="sierra::Actor" referenceName="specializableelement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateEntity" nodeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='EntityNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="sierra::Entity" referenceName="specializableelement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateComponent" nodeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ComponentNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="sierra::Component" referenceName="containableelement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateChain" nodeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ChainNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="sierra::Chain" referenceName="containableelement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateExchange" nodeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ExchangeNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="sierra::exchange" referenceName="containableelement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreatreFunction" nodeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='FunctionNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="sierra::Function" referenceName="exchangeelement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreatePort" nodeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='PortNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="sierra::Port" referenceName="exchangeelement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateInput" inverseSelectionOrder="true" nodeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='InputNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="sierra::Input" referenceName="exchangeelement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateOutput" nodeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='OutputNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="sierra::Output" referenceName="exchangeelement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="CreateContains" edgeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@edgeMappings[name='ContainsEdge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="contains" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="CreateSpecializes" edgeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@edgeMappings[name='SpecializesEdge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="specializes" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="CreateImplements" edgeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@edgeMappings[name='ImplementsEdge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="implements" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="CreateSupports" edgeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@edgeMappings[name='SupportsEdge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="supports" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="CreateIncludes" edgeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@edgeMappings[name='IncludesEdge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="includes" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="CreateExtends" edgeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@edgeMappings[name='ExtendsEdge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="extends" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="CreatePerforms" edgeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@edgeMappings[name='PerformsEdge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="performs" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="CreateHasPort" edgeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@edgeMappings[name='HasPortEdge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="hasPort" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="CreateReceivesFrom" edgeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@edgeMappings[name='ReceivesFromEdge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="receivesFrom" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="CreateSendsTo" edgeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@edgeMappings[name='SendsToEdge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="sendsTo" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="CreateInvolves" edgeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@edgeMappings[name='InvolvesEdge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="involves" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreatePerformingElement" nodeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='PerformingElementNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="sierra::PerformingElement" referenceName="performingelement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:NodeCreationDescription" documentation="Creates a new Requirement node. Links to the requirements reference." name="CreateRequirementNode" label="RequirementNode" mapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='RequirementNode']">
+            <variable name="container" documentation="The container where to create the new requirement."/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="Requirement" referenceName="requirements"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:NodeCreationDescription" documentation="Creates a new Capability node. Links to the capabilities reference." name="CreateCapabilityNode" label="CapabilityNode" mapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='CapabilityNode']">
+            <variable name="container" documentation="The container where to create the new capability."/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="Capability" referenceName="capabilities"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:NodeCreationDescription" documentation="Creates a new Actor node. Links to the actors reference." name="CreateActorNode" label="ActorNode" mapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ActorNode']">
+            <variable name="container" documentation="The container where to create the new actor."/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="Actor" referenceName="actors"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:NodeCreationDescription" documentation="Creates a new Function node. Links to the functions reference." name="CreateFunctionNode" label="FunctionNode" mapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='FunctionNode']">
+            <variable name="container" documentation="The container where to create the new function."/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="Function" referenceName="functions"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:NodeCreationDescription" documentation="Creates a new Component node. Links to the components reference." name="CreateComponentNode" label="ComponentNode" mapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='ComponentNode']">
+            <variable name="container" documentation="The container where to create the new component."/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="Component" referenceName="components"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:EdgeCreationDescription" documentation="Creates a new Exchange relationship. Links to the exchanges reference." name="CreateExchangeEdge" label="ExchangeEdge" mapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@edgeMappings[name='ExchangeEdge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="Exchange" referenceName="exchanges">
+                <elementVariable>element</elementVariable>
+              </firstModelOperations>
+              <subModelOperations xsi:type="tool_1:Set" featureName="source" valueExpression="var:source"/>
+              <subModelOperations xsi:type="tool_1:Set" featureName="target" valueExpression="var:target"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="org.eclipse.sirius.sample.sierra.services.Services"/>
+  </ownedViewpoints>
+</description:Group>

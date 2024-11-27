@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/org.eclipse.sirius.sample.sierra/src-gen" creationIcons="false"
+    editDirectory="/org.eclipse.sirius.sample.sierra.edit/src-gen" editorDirectory="/org.eclipse.sirius.sample.sierra.editor/src-gen"
+    modelPluginID="org.eclipse.sirius.sample.sierra" modelName="Sierra" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    codeFormatting="true" importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0"
+    copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>sierra.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="Sierra" basePackage="org.eclipse.sirius.sample" disposableProviderFactory="true"
+      ecorePackage="sierra.ecore#/">
+    <genClasses ecoreClass="sierra.ecore#//SpecializableElement">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//SpecializableElement/specializes"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//SpecializableElement/isSpecializedBy"/>
+    </genClasses>
+    <genClasses ecoreClass="sierra.ecore#//ContainableElement">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//ContainableElement/contains"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//ContainableElement/isContainedIn"/>
+    </genClasses>
+    <genClasses ecoreClass="sierra.ecore#//Capability">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//Capability/involves"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//Capability/includes"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//Capability/isIncludedIn"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//Capability/extends"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//Capability/isExtendedBy"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//Capability/isImplementedBy"/>
+    </genClasses>
+    <genClasses ecoreClass="sierra.ecore#//InvolvableElement">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//InvolvableElement/extends"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//InvolvableElement/isInvolvedIn"/>
+    </genClasses>
+    <genClasses ecoreClass="sierra.ecore#//Actor"/>
+    <genClasses ecoreClass="sierra.ecore#//Entity"/>
+    <genClasses ecoreClass="sierra.ecore#//System">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//System/supports"/>
+    </genClasses>
+    <genClasses ecoreClass="sierra.ecore#//ExchangeElement"/>
+    <genClasses ecoreClass="sierra.ecore#//Function">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//Function/hasInput"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//Function/hasOutput"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//Function/function"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//Function/isPerformedBy"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//Function/hasPort"/>
+    </genClasses>
+    <genClasses ecoreClass="sierra.ecore#//Item">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//Item/isConveyedBy"/>
+    </genClasses>
+    <genClasses ecoreClass="sierra.ecore#//Chain">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//Chain/implements"/>
+    </genClasses>
+    <genClasses ecoreClass="sierra.ecore#//Port">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//Port/isPortOf2"/>
+    </genClasses>
+    <genClasses ecoreClass="sierra.ecore#//Input">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//Input/isInputOf"/>
+    </genClasses>
+    <genClasses ecoreClass="sierra.ecore#//Output">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//Output/isOutputOf"/>
+    </genClasses>
+    <genClasses ecoreClass="sierra.ecore#//exchange">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//exchange/sendsTo"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//exchange/receivesFrom"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//exchange/conveys"/>
+    </genClasses>
+    <genClasses ecoreClass="sierra.ecore#//PerformingElement">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sierra.ecore#//PerformingElement/performs"/>
+    </genClasses>
+    <genClasses ecoreClass="sierra.ecore#//Component"/>
+    <genClasses ecoreClass="sierra.ecore#//ActivityDiagram">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sierra.ecore#//ActivityDiagram/specializableelement"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sierra.ecore#//ActivityDiagram/containableelement"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sierra.ecore#//ActivityDiagram/performingelement"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sierra.ecore#//ActivityDiagram/exchangeelement"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
