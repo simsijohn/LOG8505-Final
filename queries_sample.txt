@@ -1,0 +1,41 @@
+Find all capabilities involved in a specific system:
+context System inv:
+    self.supports->collect(cap | cap.name)
+
+Find exchange elements and the items they convey:
+context exchange inv:
+    self.conveys->collect(item | item.name)
+
+Identify specialization relationships:
+context SpecializableElement inv:
+    self.specializes->collect(e | e.name)
+
+Identify which functions are performed by specific actors:
+context Actor inv:
+    self.isPerformedBy->collect(f | f.name)
+
+Determine how capabilities are extended:
+context Capability inv:
+    self.extends->collect(c | c.name)
+
+Find all items involved in an exchange:
+context ActivityDiagram inv:
+    self.exchangeElements->collect(exchange | exchange.conveys->collect(item | item.name))
+
+List all capabilities included in another capability:
+context Capability inv:
+    self.includes->collect(c | c.name)
+
+List all actors and entities involved in capabilities:
+context Capability inv:
+    self.involves->select(e | e.oclIsTypeOf(Actor) or e.oclIsTypeOf(Entity))->collect(a | a.name)
+
+
+Retrieve all Capabilities specialized by other Capabilities:
+context Capability inv:
+    Capability.allInstances()->select(cap | Capability.allInstances()->exists(otherCap | otherCap.specializes = cap))
+
+Validate that Components only contain other Components:
+context Component inv:
+    self.contains->forAll(contained | contained.oclIsTypeOf(Component))
+
